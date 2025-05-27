@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*,html{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
 .bg-orange{
     background-color: #F0AB50;
 }
@@ -23,3 +29,12 @@
 .color-white{
     color: #FFFFFF;
 }
+.top-icons-height{
+    height: 24px;
+}
+.top-social-icons-height{
+    height: 40px;
+}
+.top-bar a{
+    text-decoration: none; color: #FFFFFF;
+ }
