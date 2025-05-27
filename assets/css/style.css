@@ -38,3 +38,37 @@
 .top-bar a{
     text-decoration: none; color: #FFFFFF;
  }
+
+ .drop-shadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+ }
+
+ @media screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+    line-height: 3rem;
+  }
+  .navbar .dropdown-menu {
+    line-height: initial;
+  }
+
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+
+  .dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown:hover > .dropdown-menu {
+    margin-top: -0.5rem;
+  }
+
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: -0.5rem;
+    left: 100%;
+    margin-left: 0;
+  }
+}
