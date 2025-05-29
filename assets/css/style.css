@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *,html{
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 18px; color: #626262;
 }
 
 .bg-orange{
@@ -18,6 +18,10 @@
 }
 .color-orange{
     color: #F0AB50;
+}
+
+.color-vibrant-orange{
+  color:#FF712A;
 }
 
 .color-dark{
@@ -127,6 +131,10 @@ h2{
   font-size: 48px; font-weight: 700;
 }
 
+h3{
+  font-size: 24px; font-weight: 700;
+}
+
 
 .donation-box-area .selction-group {
     display: flex;
@@ -221,3 +229,130 @@ h2{
 .wavecity{
   padding: 64px 0;
 }
+
+.normal-pad{
+  padding: 64px 0;
+}
+
+ .orange-dot::marker {
+    color: orange;
+  }
+  .left-right-gradiant{
+    background: #FDF39F;
+background: linear-gradient(90deg,rgba(253, 243, 159, 1) 0%, rgba(255, 113, 42, 1) 76%); padding: 40px 0; position: relative;
+  }
+    .left-right-gradiant h2{
+color: #363636; text-align: center; font-size: 40px!important;
+    }
+
+     .left-right-gradiant a.readmore{
+      position: absolute; left: 50%; margin-left: -45px; bottom: -50px; z-index: 10; 
+     }
+    .left-right-gradiant::after{
+      content: '';
+      width: 98px; height: 98px;border-radius: 100%; background-color: #FFF;position: absolute;left: 50%;z-index: 1;margin-left: -58px; bottom: -60px;
+     }
+
+     .make-a-difference{
+      border:1px solid #BBBBBB;
+      background-color: #FFFFFF; border-radius: 10px; margin-bottom: 24px; padding: 24px; min-height: 350px;
+     }
+     .make-a-difference .icon-area{
+      min-height: 125px;
+     }
+     .top-pad-normal{
+      padding-top: 64px; text-align: center;
+     }
+     .first-blog{
+      position: relative;margin-bottom: 24px;
+     }
+     .first-blog .featured-image{
+      border-radius: 10px; width: 100%;
+     }
+      .blog-meta{
+        position: absolute;padding: 24px; height: 50%; bottom: 0; left: 0; right: 0; width: 100%;
+        background: #303030;
+background: linear-gradient(180deg, rgba(48, 48, 48, 0) 0%, rgba(48, 48, 48, 1) 100%); border-radius: 0 0 10px 10px; display: flex; flex-direction: column; justify-content: end;
+ 
+      }
+      .blog-meta h3{
+          font-size: 20px; text-align: left; margin-bottom: 24px;
+       }
+       .normal-blog-featured{
+        border-radius: 10px; width:100%;
+       }
+       .normal-blog{
+        background-color: #FFF; padding:16px; border-radius: 10px; min-height: 426px; margin-bottom: 24px;
+       }
+
+       .blog-meta-normal{ 
+         display: flex; flex-direction: column; justify-content: end;
+ 
+      }
+      .blog-meta-normal h3{
+          font-size: 20px; text-align: left; min-height: 113px;
+       }
+       .testimonial-bg{
+        width: 400px; height: 397px; position: relative; padding: 100px 58px 24px 58px; margin-top: 64px; 
+         background: url('../images/testimonial-bg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   text-align: center; font-size: 20px;
+       }
+       .testimonial-bg h3{
+        font-size: 20px; font-weight: 500;
+       }
+       .testimonial-bg .testimonial_thumbnail{
+        position: absolute; top: -20px; left: 45%; margin-left: -50px;
+       }
+
+       .testimonial-slider.owl-carousel img{
+        width: auto!important;
+       }
+
+ .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  footer{
+        position: relative; 
+         background: url('../images/footer-bg.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;  font-size: 20px; padding-top: 64px;color: #FFFFFF!important;
+    }
+    footer p{
+      color: #FFFFFF!important;
+    }
+      footer h3{
+        font-size: 24px; font-weight: 600; padding: 0; margin: 0 0 24px 0; color: #FFFFFF;
+      }
+       footer a{
+        text-decoration: none;color: #FFFFFF;
+       }
+
+       footer .section-link ul li::marker {
+          color: #FFFFFF;
+        }
+        .footer-logo{
+          width: 110px; height: auto;
+        }
+        footer .copyright{
+          border-top: 1px solid #FFFFFF; padding: 24px 0 16px 0;
+        }
+        footer .social-links{
+          position: absolute; left: 10px; top: 32px;
+        }
+         footer .social-links ul{
+          list-style-type: none;
+         }
+          footer .social-links ul li{
+            margin-bottom: 10px;
+          }
+
+           footer .social-links ul li img{
+            width: 48px; height: 48px;
+           }
