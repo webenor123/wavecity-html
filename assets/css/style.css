@@ -269,7 +269,7 @@ color: #363636; text-align: center; font-size: 40px!important;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover; padding: 24px; color: #626262; font-size: 24px; min-height: 460px; border-radius: 15px;
+        background-size: cover; padding: 36px; color: #626262; font-size: 24px; min-height: 460px; border-radius: 15px;
       }
       .seva_percentage h2{
         color: #404040; font-size: 44px; font-weight: 700;
@@ -371,18 +371,28 @@ background: linear-gradient(180deg, rgba(48, 48, 48, 0) 0%, rgba(48, 48, 48, 1) 
             .btn-black{
               background-color: #363636;
             }
+
+             .btn-black:hover{
+              background-color: #FF712A;
+            }
             .btn-orange{
               background-color: #FF712A;
             }
+            .btn-orange:hover{
+              background-color: #363636;
+            }
             .btn-wavecity{
-            border-radius: 8px; padding:0 36px 0 0; 
+            border-radius: 8px; padding:13px 46px 13px 13px;  color: #FFFFFF; height:48px; text-decoration: none; position: relative;
             }
            .btn-exmpand{
-             background-image: url('../images/icon-expand.png'); background-repeat: no-repeat; background-position: right top;
+             background-image: url('../images/icon-expand.png'); background-repeat: no-repeat; width: 35px; height: 35px; position: absolute; right: 8px; top: 8px; 
            }
            .btn-minimize{
-             background-image: url('../images/icon-minimize.png'); background-repeat: no-repeat; background-position: right top;
+             background-image: url('../images/icon-minimize.png'); background-repeat: no-repeat; width: 35px; height: 35px; position: absolute; right: 8px; top: 8px; 
            }
             .btn-arrow{
-             background-image: url('../images/icon-arrow.png'); background-repeat: no-repeat; background-position: right top;
+             background-image: url('../images/icon-arrow.png'); background-repeat: no-repeat; width: 35px; height: 35px; position: absolute; right: 8px; top: 8px; 
+           }
+            .btn-arrow-orange{
+             background-image: url('../images/icon-arrow-orange.png'); background-repeat: no-repeat; width: 35px; height: 35px; position: absolute; right: 8px; top: 8px; 
            }
